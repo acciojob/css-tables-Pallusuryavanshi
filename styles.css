@@ -3,7 +3,11 @@ th,td{
 	border: 1px solid rgb(204, 204, 204);
 	padding:8px;
 	border-radius:5px;
+	
 }
-.color{
+tr:nth-child(odd){
 	background:rgb(242, 242, 242);
+}
+tr:nth-child(even){
+	background:rgb(255, 255, 255);
 }
